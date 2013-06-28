@@ -1,7 +1,7 @@
 #if n is even, n = n/2
 #if n is odd, n = 3n+1
 
-$recorded_iterations = []
+$recorded_iterations = {} 
 $init = 0
 $steps = 0
 
@@ -22,10 +22,11 @@ def collatz(n)
 	$steps += 1
 end
 
-input = ARGV[0]
+
+input = ARGV[0].to_i
 max_steps = 0
 max_num = 0
-init = (1..input).each do |i|
+1.upto(input).each do |i|
 
 
 	collatz(i)
