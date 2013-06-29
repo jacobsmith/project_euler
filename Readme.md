@@ -1,0 +1,3 @@
+This is a collection of my work as used to complete Project Euler (projecteuler.net) problems. I will do my best to indicate any code which is not my own. Some of the ideas of implementation may be borrowed from elsewhere, but all of the code itself should be mine.
+
+If you have any questions, comments, or suggestions, please let me know! You can leave a message here on github or email me at jacob.wesley.smith@gmail.com. I would love to both help young (or beginning) programmers get started or figure out a problem, as well as get advice from more experienced programmers who can let me know how to optimize something or to take a different approach!
