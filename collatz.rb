@@ -2,8 +2,7 @@
 #if n is odd, n = 3n+1
 
 $recorded_iterations = {} 
-$init = 0
-$steps = 0
+
 
 def collatz(n, step)
 	if $recorded_iterations[n]
